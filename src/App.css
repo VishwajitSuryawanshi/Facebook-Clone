@@ -1,0 +1,425 @@
+.facebook-icon {
+  color: #1877F2;
+  width: 40px;
+  height: 40px;
+}
+
+.header-btn1 {
+  margin-right: 5rem;
+  border: none;
+  background-color: transparent;
+}
+
+.header-btn {
+  margin-right: 1rem;
+  border: none;
+  background-color: transparent;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown-menu {
+  background-color: white; 
+  border: 1px solid #ddd; 
+}
+
+.icon:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  margin-top: "2rem";
+  background-color: #bdbbbb;
+}
+
+.nav-link.post {
+  position: relative;
+}
+
+.nav-link.post::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  border-bottom: 4px solid;
+}
+
+.blue-text {
+  color: blue;
+}
+
+/* Cards.css */
+
+.cards-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1.5rem;
+  width: 84rem;
+  height: 40rem;
+  margin-top: 5rem;
+}
+
+.card {
+  width: 40rem;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.comment-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.comment-input {
+  width: 500px;
+  margin-right: 1rem;
+}
+
+.comment-submit {
+  margin-top: 0.5rem;
+}
+
+/* MainWindow.css */
+
+.cover-photo-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.camera-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.camera-icon1 {
+  width: 24px;
+  height: 24px;
+}
+
+.plus-icon {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 0.5rem;
+}
+
+.pencil-icon {
+  width: 24px; 
+  height: 24px; 
+  margin-right: 0.5rem;
+}
+
+.cover-photo-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cover-photo {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.edit-cover-button {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: white;
+  margin-right: 10rem;
+}
+
+.profile-photo-container {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: -18rem;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-left: 15rem;
+}
+
+.edit-profile-button {
+  position: absolute;
+  bottom: 9px;
+  right: 1050px;
+  border-radius: 100px;
+  padding: 5px;
+  background: white;
+}
+
+.user-info {
+  position: relative;
+  margin-top: 7rem;
+  margin-left: 29rem;
+}
+
+.user-name {
+  bottom: 50px;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.user-surname {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-top: -1rem;
+}
+
+.user-friends {
+  margin-bottom: 10rem;
+  color: #555;
+  margin-left: 0rem;
+}
+
+.action-buttons {
+  position: relative;
+}
+
+.add-to-story-button {
+  position: absolute;
+  bottom: 170px;
+  right: 15px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: #059AFD;
+  margin-right: 25rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.edit-profile-button1 {
+  position: absolute;
+  bottom: 18px;
+  right: 15px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background: white;
+  margin-right: 65rem;
+}
+
+.edit-profile-button {
+  position: absolute;
+  bottom: 170px;
+  right: 15px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: white;
+  margin-right: 16rem;
+}
+
+.arrow-button {
+  position: absolute;
+  bottom: 125px;
+  right: 15px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: white;
+  margin-right: 16rem;
+}
+
+.profile-images {
+  position: absolute;
+  bottom: 90px;
+  margin-left: 29rem;
+}
+
+/* PostWindow.css */
+
+.post-window-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  margin-top: -6rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: #0088ff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.post {
+  font-weight: bold;
+}
+
+.more-dropdown {
+  position: relative;
+}
+
+.more-button {
+  text-align: right;
+}
+
+.more-button-icon {
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+/* Sidebar.css */
+
+.sidebar-container {
+  border-left: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  width: 280px;
+  margin-left: 11rem;
+  margin-top: -40rem;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.bi-icon {
+  pointer-events: none;
+  margin-right: 0.5rem;
+}
+
+.sidebar-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.edit-bio-button {
+  border-radius: 8px;
+  padding: 5px 70px;
+  margin-bottom: 1rem;
+}
+
+.info-section {
+  padding: 0 1rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.info-icon {
+  margin-right: 0.5rem;
+}
+
+.info-text {
+  font-size: 0.875rem;
+}
+
+.edit-details-button,
+.add-features-button {
+  border-radius: 8px;
+  padding: 5px 70px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Sidebar2.css */
+
+.sidebar2-container {
+  width: 280px;
+  margin-left: 11rem;
+  margin-top: 0;
+  padding: 1rem;
+}
+
+.sidebar2-link {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.bi-icon {
+  pointer-events: none;
+  margin-right: 0.5rem;
+}
+
+.sidebar2-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.col-md-6 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.see-all-button {
+  border-radius: 8px;
+  padding: 5px 70px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
